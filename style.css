@@ -1,0 +1,238 @@
+/* =======================
+   General Reset
+   ======================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #b400ff;
+}
+
+header h1 {
+    color: #ff5c8d;
+}
+
+header a {
+    color: #ff5c8d;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* =======================
+   Threads & Replies
+   ======================= */
+.thread-card, .reply-card {
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 5px solid #b400ff;
+}
+
+.thread-card:hover, .reply-card:hover {
+    background-color: #2a2a2a;
+}
+
+.thread-title, .reply-author {
+    font-weight: bold;
+    color: #ff5c8d;
+}
+
+.thread-desc, .reply-content {
+    margin-top: 5px;
+}
+
+.new-thread, .new-reply {
+    margin-top: 30px;
+}
+
+input[type="text"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #b400ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5c8d;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* =======================
+   Thread page
+   ======================= */
+.thread-detail {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border-left: 5px solid #b400ff;
+}
+
+.thread-detail .thread-title {
+    font-size: 1.8em;
+    color: #ff5c8d;
+    margin-bottom: 5px;
+}
+
+.thread-detail .thread-author {
+    font-size: 0.9em;
+    color: #bbb;
+    margin-bottom: 15px;
+}
+
+.thread-detail .thread-desc {
+    font-size: 1em;
+    color: #e0e0e0;
+}
+
+.reply-card {
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 5px solid #b400ff;
+}
+
+.reply-card:hover {
+    background-color: #2a2a2a;
+}
+
+.reply-author {
+    font-weight: bold;
+    color: #ff5c8d;
+    margin-bottom: 5px;
+}
+
+.reply-content {
+    color: #e0e0e0;
+}
+
+.new-reply textarea, .new-reply button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.new-reply textarea {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+.new-reply button {
+    background-color: #b400ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.new-reply button:hover {
+    background-color: #ff5c8d;
+}
+
+/* =======================
+   Register/Login Pages
+   ======================= */
+form.register, form.login {
+    background-color: #1f1f1f;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 30px auto;
+    border-left: 5px solid #b400ff;
+}
+
+form.register h1,
+form.login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff5c8d;
+}
+
+form.register input[type="text"],
+form.register input[type="password"],
+form.login input[type="text"],
+form.login input[type="password"],
+form.register button,
+form.login button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+form.register input[type="text"],
+form.register input[type="password"],
+form.login input[type="text"],
+form.login input[type="password"] {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+form.register button,
+form.login button {
+    background-color: #b400ff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form.register button:hover,
+form.login button:hover {
+    background-color: #ff5c8d;
+}
+
+form.register p,
+form.login p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+form.register a,
+form.login a {
+    color: #ff5c8d;
+    text-decoration: none;
+}
+
+form.register a:hover,
+form.login a:hover {
+    text-decoration: underline;
+}
